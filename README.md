@@ -1,8 +1,7 @@
 # My Spot
 
-**Alex** & *BBB* efrgtbvsrftgv
+**Alex** & *BBB*
 
 ## Description
 
 Project under contruction.
-gdgfyzefgec
