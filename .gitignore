@@ -3,3 +3,6 @@ db.sqlite3
 avatars/
 media/
 photos/
+__pycache__/
+*.py[cod]
+*$py.class
