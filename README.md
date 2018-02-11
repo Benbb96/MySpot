@@ -1,3 +1,7 @@
 # My Spot
 
-**Alex** & __BBB__
+**Alex** & *BBB*
+
+## Description
+
+Project under contruction.
