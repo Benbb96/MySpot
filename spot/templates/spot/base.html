@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    {% load static %}
+    <title>{% block title %}Base{% endblock %}</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'spot/css/style.css' %}" />
+</head>
+<body>
+<h1><a href="{% url 'index' %}">MySpot</a></h1>
+<div id="map"></div>
+<div class="content">
+    {% block content %}
+    {% endblock %}
+</div>
+<script>
+    {% block js %}
+    {% endblock %}
+</script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_FuWNEpvlH5sGutvobNTezEKWoJudAwE&callback=initMap">
+</script>
+</body>
+</html>
